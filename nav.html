@@ -1,0 +1,122 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+h1{
+font-family:impact;
+font-size:4em;
+color:#7F4B23;
+text-shadow:2px 2px 4px #222;
+margin-left: 100px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.hello{
+	display:block;
+	margin-left: auto;
+        margin-right: auto;
+	padding-top:20px;
+}
+</style>
+</head>
+<body>
+
+
+
+<h1> Airport Management System </h1>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">Employee
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="./employee/addemployee.php">Add Employee</a>
+      <a href="./employee/editemployee.php">Edit Employee</a>
+      <a href="./employee/display.php">View Employees</a>
+      <a href="./employee/deleteemp.php">Delete Employee</a>
+      <a href="./employee/salaryedit.php">Edit Salary of An Occupation</a>
+      <a href="./employee/servesform.php">Assign To Passengers</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Flights
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="./flight/addflight.php">Add Flight</a>
+      <a href="./flight/editflight.php">Update Flight</a>
+      <a href="./flight/displayflights.php">View Flights</a>
+    </div>
+  </div>
+   
+</div>
+
+<img src = "ban.jpg" class = "hello">
+
+<p> Welcome to the Airport Management System. Hover to the appropriate section and select your task. You can manage employees and flights as you wish! Enjoy! </p>
+</body>
+</html>

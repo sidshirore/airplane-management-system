@@ -1,4 +1,15 @@
-# airplane-management-system
+# Members
+
+` 111803125 Siddharth Shirore
+  111803132 Priya Pitre`
+  
+# ER Diagram
+
+<div align="center">
+    <img width="600" heigth="600" src="https://imgur.com/gbWS9eP.jpg">
+</div>
+
+# Airplane Management System
 
 Airport Management System created in PHP using Xampp Server.
 

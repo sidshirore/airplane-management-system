@@ -28,3 +28,5 @@ start localhost using the command sudo /opt/lampp/lampp start.
 Import airplane(exported).sql into XAMPP Server's phpmyadmin (localhost)
 Change permissions of htdocs using sudo 777 chmod htdocs- and place the folder "dbmsproj" into htdocs.
 Now go to localhost in your browser and run dbmsproj.
+
+Screenshots can be found in the screenshots folder in the repository.

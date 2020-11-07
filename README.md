@@ -61,4 +61,8 @@ HTML/CSS for frontend
   <li>Passenger can view or cancel their ticket at any time using ticket number
 </ol>
 
-<h2>Screenshots can be found in the screenshots folder in the repository.</h2>
+## How is it different from other systems?
+
+Most systems will only have one functionality, either admin or passenger but here we have implemented both.
+
+## Screenshots can be found in the screenshots folder in the repository.

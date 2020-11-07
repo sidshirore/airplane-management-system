@@ -9,6 +9,13 @@
     <img width="600" heigth="600" src="https://imgur.com/gbWS9eP.jpg">
 </div>
 
+# Normalised Schema
+
+<div align="center">
+    <img width="600" heigth="600" src="https://imgur.com/XkgtJEY.jpg">
+</div>
+
+
 # Airplane Management System
 
 Airport Management System created in PHP using Xampp Server.

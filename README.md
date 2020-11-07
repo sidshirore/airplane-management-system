@@ -15,25 +15,48 @@
     <img width="600" heigth="600" src="https://imgur.com/XkgtJEY.jpg">
 </div>
 
+# Project Description
 
-# Airplane Management System
+This is a simple implementation of an Airport Management System which can be used by either the admin or the passenger to manage flights and employees or book tickets and view details respectively. We have tried to make the process of handling employees and flights easier through our system.
 
-Airport Management System created in PHP using Xampp Server.
+# Tech Stack Used
 
-Manages Employees, Flights, and Passengers.
+MySQL as database<br>
+PHP for backend<br>
+HTML/CSS for frontend
 
-Has a Login functionality
+# Features
 
-Fetches data to and from SQL Database.
+<ul>
+  <li><b>Employees:</b>Ability to add, delete, view and update employees along with their salary
+  <li><b>Admin Login:</b>Only admin has access to employee and flight management with login
+  <li><b>Flight:</b>Ability to manage flights from admin end
+  <li><b>Passenger:</b>Passenger can book their flight, add their details and view the ticket or cancel it afterwards using their unique ticket number
+</ul>
 
-Check out dbmsproj/project to see complete functionality and end product.
+# Running the application
+<ol>
+  <li>Clone the repository
+  <li>Copy paste the folder into htdocs in your XAMPP path
+  <li>Import the SQL script into PHPMyAdmin to generate the database
+  <li>Run XAMPP
+  <li>Run the project by accessing localhost/&ltproject folder name&gt
+</ol>
 
-To run follow the following steps:
+# Admin Features
 
-stop other services using the command sudo service stop <apache2,mysql,etc>
-start localhost using the command sudo /opt/lampp/lampp start.
-Import airplane(exported).sql into XAMPP Server's phpmyadmin (localhost)
-Change permissions of htdocs using sudo 777 chmod htdocs- and place the folder "dbmsproj" into htdocs.
-Now go to localhost in your browser and run dbmsproj.
+<ol>
+  <li>Admin can add employees, update their details, delete an employee from the database
+  <li>Admin can update salary of a particular job type
+  <li>Admin can add flights, update details of a flight or view the details of all flights
+</ol>
 
-Screenshots can be found in the screenshots folder in the repository.
+# Passenger Features
+
+<ol>
+  <li>Passenger can add their personal details before booking their ticket
+  <li>After adding details they can book their ticket according to required destination and source
+  <li>Passenger can view or cancel their ticket at any time using ticket number
+</ol>
+
+<h2>Screenshots can be found in the screenshots folder in the repository.</h2>
